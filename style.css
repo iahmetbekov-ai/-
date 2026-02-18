@@ -1,18 +1,16 @@
-ч  body{
+  body{
   margin:0;
   background:#0a0a0f;
   color:#e5e5e5;
   font-family: "Courier New", monospace;
 }
 
-/* Общая ширина страницы */
 .page{
   max-width: 500px;   /* было слишком широко — теперь компактно */
   margin: 40px auto;
   padding: 0 10px;
 }
 
-/* Верхняя панель */
 .topbar{
   display:flex;
   justify-content:space-between;
@@ -46,7 +44,7 @@
   margin-right:5px;
 }
 
-/* Основная рамка */
+
 .frame{
   margin-top:10px;
   border:1px solid #333;
@@ -72,7 +70,7 @@
 }
 
 .photo{
-  width:180px;      /* уменьшили фото */
+  width:180px;     
   max-width:100%;
   border:1px solid #333;
 }
