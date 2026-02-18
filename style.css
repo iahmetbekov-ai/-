@@ -1,0 +1,137 @@
+ч  body{
+  margin:0;
+  background:#0a0a0f;
+  color:#e5e5e5;
+  font-family: "Courier New", monospace;
+}
+
+/* Общая ширина страницы */
+.page{
+  max-width: 500px;   /* было слишком широко — теперь компактно */
+  margin: 40px auto;
+  padding: 0 10px;
+}
+
+/* Верхняя панель */
+.topbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:8px 12px;
+  border:1px solid #333;
+  background:#111;
+  font-size:12px;
+}
+
+.logo{
+  font-weight:bold;
+  letter-spacing:1px;
+}
+
+.logo-mark{
+  color:#00ffcc;
+  margin-right:5px;
+}
+
+.status{
+  color:#aaa;
+  font-size:11px;
+}
+
+.dot{
+  width:6px;
+  height:6px;
+  background:#00ffcc;
+  display:inline-block;
+  margin-right:5px;
+}
+
+/* Основная рамка */
+.frame{
+  margin-top:10px;
+  border:1px solid #333;
+  background:#14141c;
+}
+
+.title-strip{
+  display:flex;
+  justify-content:space-between;
+  padding:6px 10px;
+  background:#0f0f16;
+  border-bottom:1px solid #333;
+  font-size:12px;
+}
+
+
+.panel{
+  padding:10px;
+}
+
+.photo-wrap{
+  text-align:center;
+}
+
+.photo{
+  width:180px;      /* уменьшили фото */
+  max-width:100%;
+  border:1px solid #333;
+}
+
+.caption{
+  margin-top:6px;
+  font-size:14px;
+  font-weight:bold;
+  text-align:center;
+}
+
+.mini{
+  margin-top:10px;
+  font-size:12px;
+  line-height:1.6;
+}
+
+.mini-row span{
+  color:#aaa;
+}
+
+.buttons{
+  margin-top:10px;
+  display:flex;
+  gap:6px;
+}
+
+.btn{
+  flex:1;
+  text-decoration:none;
+  color:#fff;
+  background:#1c1c26;
+  border:1px solid #333;
+  padding:5px;
+  font-size:12px;
+  text-align:center;
+}
+
+.btn:hover{
+  background:#222;
+  border-color:#00ffcc;
+  color:#00ffcc;
+}
+a{
+  color:#66aaff;
+  text-decoration:none;
+  font-weight:bold;
+  transition:0.2s;
+}
+
+a:hover{
+  color:#00ffcc;
+  text-decoration:underline;
+}
+
+a:active{
+  color:#ff66cc;
+}
+
+a:visited{
+  color:#aa88ff;
+}
