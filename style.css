@@ -6,7 +6,7 @@
 }
 
 .page{
-  max-width: 500px;   /* было слишком широко — теперь компактно */
+  max-width: 500px;  
   margin: 40px auto;
   padding: 0 10px;
 }
